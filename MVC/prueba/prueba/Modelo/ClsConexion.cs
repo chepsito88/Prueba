@@ -27,7 +27,7 @@ namespace prueba.Modelo
         public void conexion() {
             try
             {
-                _Cadena = "Server=localhost; Database=bd_clinica;Uid=root;Pwd=chepsito;";
+                _Cadena = "Server=localhost; Database=bd_toolcreation;id=root;Pwd=admin1;";
                 _conexion= new MySqlConnection(_Cadena);
                 _conexion.Open();
 
